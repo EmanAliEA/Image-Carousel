@@ -1,0 +1,58 @@
+body {
+  background-color: antiquewhite;
+}
+
+.App {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+button {
+  border-radius: 50%;
+  height: 77px;
+  width: 80px;
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 56px;
+  color: white;
+  border: none;
+  background-color: black;
+  cursor: pointer;
+}
+.image-item {
+  border-radius: 10px;
+  width: 58%;
+  height: 90vh;
+}
+
+@media (max-width: 573px) {
+  .App {
+    margin-top: 200px;
+    gap: 5px;
+  }
+  .image-item {
+    height: 50vh;
+    width: 78%;
+  }
+  button {
+    height: 40px;
+    width: 45px;
+    font-size: 29px;
+  }
+}
+@media (max-width: 372px) {
+  .App {
+    margin-top: 200px;
+  }
+  .image-item {
+    height: 50vh;
+    width: 78%;
+  }
+  button {
+    height: 40px;
+    width: 45px;
+    font-size: 29px;
+  }
+}
